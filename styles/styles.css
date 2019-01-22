@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size:;
+
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background:#39c;
+}
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+}
+.header_wrapper
+{
+	width:1000px;
+	height:100px;
+	background:#fff;
+}
+#navbar{
+	width:1000px;
+	height:50px;
+	background:#999;
+	color:#fff;
+}
+#menu{
+	padding:0;
+	line-height:36px;
+	margin-top:5px;
+	float:left;
+}
+#menu li{
+	list-style:none;
+	display:inline;
+}
+#menu a {
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	margin:5px;
+	padding:10px;
+}
+#menu a:hover{
+	text-decoration:underline;
+	color:#333;
+	font-weight:bolder;
+}
+#form{
+	float:right;
+	line-height:50px;
+	padding-right:5px;
+}
+.content_wraper{
+	width:1000px;
+	height:600px;
+	background:#f96;
+	
+}
+#right_content{
+	width:800px;
+	
+	float:right;
+	background:#fcc;
+	
+}
+#left_sidebar{
+	width:200px;
+	
+	background:#000;
+	float:left;
+	
+}
+.footer{
+	width:1000px;
+	height:100px;
+	background:#900;
+	color:#fff;
+	clear:both;
+}
+#sidebar_title{
+	background:#fff;
+	color:#000;
+	padding:10px;
+	font-size:22px;
+	font-family:"palatino Linotype";
+}
+#cats{
+	padding:10px;
+	text-align:center;
+	
+}
+#cats li{
+	list-style:none;
+	margin:8px;
+	
+}
+#cats a {
+	color:#fff;
+	font-size:16px;
+	text-decoration:none;
+	margin:5px;
+}
+#cats a:hover{
+	color:#f93;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#headlin{
+	background:#000;
+	color:#fff;
+	
+	width:780px;
+	height:35px;
+	padding:10px;
+	
+}
+#headlin_content{
+	float:right
+}
+#product_box{
+	width:780px;
+	padding:10px;
+	margin-left:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+#single_product{
+	float:left;
+	padding:10px;
+	
+}
+#single_product  img {
+	border:2px solid #333;
+	
+
+
+}
